@@ -1,0 +1,22 @@
+For get_live_data:
+    $python live_data.py [symbol] [exchange] [expiry] [delay]
+    $python live_data.py ES GLOBEX 09-2016 3
+
+    Prints live data to the screen
+
+For get_hictorical_data:
+    $python get_hictorical_data.py [symbol] [exchange] [expiry] [from date] [to date] [timeframe]
+    $python get_hictorical_data.py ES GLOBEX 09-2016 11-07-2016 13-07-2016 1 hour
+
+    Prints to the console and saves data to the csv
+
+symbol - ES
+exchange - GLOBEX
+expiry - dd-mm-yyyy format (e.g., 09-2016)
+delay -  number of seconds of delay between refresh, timeframe.
+from date - dd-mm-yyyy format (e.g., 04-07-2016)
+to date - dd-mm-yyyy format (e.g., 09-07-2016)
+timeframe - interval between one day scraping. Could be: 2 mins, 3 mins, 5 mins, 10 mins, 15 mins, 20 mins, 30 mins,
+                                                         1 hour, 2 hour, 3 hour, 4 hour, 8 hour, 1 day
+
+NOTE: if script is connecting, but doesn't work, try to update clientId from ibdatacollection.py to any random number.

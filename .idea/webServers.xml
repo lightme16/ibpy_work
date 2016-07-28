@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7213b3de-db98-468c-abdd-4ae9aa523c70" name="vincent_ec2" url="http://52.29.191.60">
+        <fileTransfer host="52.29.191.60" port="22" rootFolder="/home/a-ikn" accessType="SFTP" password="dfcbdf87dfc3dfc1dfc4" username="a-ikn">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
